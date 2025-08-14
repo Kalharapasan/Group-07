@@ -1,0 +1,74 @@
+/* ===== Custom Overrides for AdminLTE ===== */
+
+/* Sidebar gradient + hover */
+.main-sidebar,
+.sidebar-dark-primary {
+    background: linear-gradient(180deg, #111827 0%, #0f172a 100%);
+}
+.nav-sidebar .nav-link.active,
+.nav-sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+}
+.brand-link {
+    border-bottom: 0;
+}
+
+/* Navbar tweaks */
+.main-header.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Small boxes - softer look */
+.small-box {
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.small-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+.small-box .icon {
+    opacity: .2;
+}
+
+/* Cards */
+.card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+.card .card-header {
+    border-bottom: 0;
+}
+.card-title small {
+    font-weight: 400;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 0.65rem;
+}
+
+/* Tables, lists, etc. */
+.todo-list > li {
+    border-radius: .5rem;
+    background: #fff;
+    margin-bottom: .5rem;
+    padding: .5rem .75rem;
+}
+
+/* Footer */
+.main-footer {
+    border-top: 0;
+}
+
+/* Make charts look crisp on HiDPI */
+canvas {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Utility */
+.text-white-50 {
+    color: rgba(255,255,255,.8) !important;
+}
