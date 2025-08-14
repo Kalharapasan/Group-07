@@ -1,0 +1,45 @@
+/* Sidebar Styling (Bootstrap + Modern Look) */
+.main-sidebar {
+    background: linear-gradient(180deg, #0f172a, #1e293b);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+.brand-link {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: #e5e7eb !important;
+    transition: background 0.3s;
+}
+.brand-link:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.user-panel {
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+.user-panel .image img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-sidebar .nav-link {
+    color: #cbd5e1;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+.nav-sidebar .nav-link:hover {
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+}
+.nav-sidebar .nav-link.active {
+    background: rgba(99,102,241,0.2);
+    color: #fff;
+    box-shadow: inset 0 0 0 1px rgba(99,102,241,0.4);
+}
+.nav-sidebar .nav-icon {
+    margin-right: 8px;
+}
