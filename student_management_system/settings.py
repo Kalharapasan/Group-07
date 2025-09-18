@@ -71,8 +71,12 @@ WSGI_APPLICATION = 'student_management_system.wsgi.application'
 # Option 1: MySQL (XAMPP)
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'group7',
+        'USER': 'root',
+        'PASSWORD': 'kalharamax',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
