@@ -2,44 +2,8 @@
 This is a Simple Student Management System Developed While Learning Django.
 Feel free to make changes based on your requirements.
 
-## Project's Journey
-- [x] Admin/Staff/Student Login
-- [x] Add and Edit Course
-- [x] Add and Edit Staff
-- [x] Add and Edit Student
-- [x] Add and Edit Subject
-- [x] Upload Staff's Picture
-- [x] Upload Student's Picture
-- [x] Sidebar Active Status
-- [x] Named URLs
-- [x] Model Forms for adding  student
-- [x] Model Forms for all
-- [x] Views Permission (MiddleWareMixin)
-- [x] Attendance and Update Attendance
-- [x] Password Reset Via Email
-- [x] Apply For Leave
-- [x] Students Can Check Attendance
-- [x] Check Email Availability
-- [x] Reply to Leave Applications
-- [x] Reply to Feedback
-- [x] Admin View Attendance
-- [x] Password Change for Admin, Staff and Students using *set_password()*
-- [x] Admin Profile Edit
-- [x] Staff Profile Edit
-- [x] Student Profile Edit
-- [x] Student Dashboard Fixed
-- [x] Passing Page Title From View  - Improved
-- [x] Staff Dashboard Fixed
-- [x] Admin Dashboard Fixed
-- [x] Firebase Web Push Notifications
-- [x] Staff Add Student's Result
-- [x] Staff Edit Result Using CBVs (Class Based Views)
-- [x] Google CAPTCHA
-- [x] Student View Result
-- [x] Change all links to be dynamic
-- [x] Code Restructure - Very Important
-
 ## Features of this Project
+
 ### A. Admin Users Can
 1. See Overall Summary Charts of Students Performances, Staff Performances, Courses, Subjects, Leave, etc.
 2. Manage Staff (Add, Update and Delete)
@@ -128,6 +92,17 @@ Then, Enter the project
 ```
 cd Group-07
 ```
+Cretae databases In you MySql Lacal Server 
+```DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'DATABASES_NAME',
+        'USER': 'USER_NAME',
+        'PASSWORD': 'USER_PASSWORD',
+        'HOST': 'HOST',
+        'PORT': 'PORT',
+    }
+}```
 
 **4. Install Requirements from 'requirements.txt'**
 ```python
@@ -161,7 +136,13 @@ Command for Linux:
 python3 manage.py runserver
 ```
 
-**7. Login Credentials**
+**7.Database Update**
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+**8. Login Credentials**
 
 Create Super User (HOD)
 Command for PC:
@@ -178,6 +159,7 @@ Command for Linux:
 ```
 python3 manage.py createsuperuser
 ```
+
 
 
 
@@ -200,7 +182,42 @@ Password: stu@2001
 
 
 
-
+## Project's Journey
+- [x] Admin/Staff/Student Login
+- [x] Add and Edit Course
+- [x] Add and Edit Staff
+- [x] Add and Edit Student
+- [x] Add and Edit Subject
+- [x] Upload Staff's Picture
+- [x] Upload Student's Picture
+- [x] Sidebar Active Status
+- [x] Named URLs
+- [x] Model Forms for adding  student
+- [x] Model Forms for all
+- [x] Views Permission (MiddleWareMixin)
+- [x] Attendance and Update Attendance
+- [x] Password Reset Via Email
+- [x] Apply For Leave
+- [x] Students Can Check Attendance
+- [x] Check Email Availability
+- [x] Reply to Leave Applications
+- [x] Reply to Feedback
+- [x] Admin View Attendance
+- [x] Password Change for Admin, Staff and Students using *set_password()*
+- [x] Admin Profile Edit
+- [x] Staff Profile Edit
+- [x] Student Profile Edit
+- [x] Student Dashboard Fixed
+- [x] Passing Page Title From View  - Improved
+- [x] Staff Dashboard Fixed
+- [x] Admin Dashboard Fixed
+- [x] Firebase Web Push Notifications
+- [x] Staff Add Student's Result
+- [x] Staff Edit Result Using CBVs (Class Based Views)
+- [x] Google CAPTCHA
+- [x] Student View Result
+- [x] Change all links to be dynamic
+- [x] Code Restructure - Very Important
 
 
 
