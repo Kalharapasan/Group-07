@@ -34,9 +34,9 @@ Feel free to make changes based on your requirements.
 
 <table>
     <tr>
-        <td>Admin Dashbord</td>
-        <td>Student Dashbord</td>
-        <td>*Teacher Dashbord</td>
+        <th>Admin Dashbord</th>
+        <th>Student Dashbord</th>
+        <th>*Teacher Dashbord</th>
     </te>
     <tr>
         <td><img width="400" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/9a88ad8b-9d2b-4191-90c9-13475157d9d3" /></td> 
