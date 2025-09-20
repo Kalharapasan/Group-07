@@ -34,8 +34,7 @@ Feel free to make changes based on your requirements.
 <img width="1366" height="622" alt="Capture1" src="https://github.com/user-attachments/assets/9a88ad8b-9d2b-4191-90c9-13475157d9d3" />
 <img width="1366" height="614" alt="studen" src="https://github.com/user-attachments/assets/cefa99ef-00bf-4ea9-9c40-4d8f854004d7" />
 <img width="1366" height="617" alt="Staff" src="https://github.com/user-attachments/assets/b3a64e41-2e7c-4e64-9aca-c8686fc72faa" />
-<img width="1366" height="576" alt="login" src="https://github.com/user-attachments/assets/ce8ec19a-a50f-4d48-ad4c-85638c60d8c0" />
-<img width="1336" height="625" alt="w" src="https://github.com/user-attachments/assets/d30c82e1-ce93-4109-a9e3-70ccf7727717" />
+
 
 
 ## How to Install and Run this project?
