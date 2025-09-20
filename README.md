@@ -38,62 +38,23 @@ Feel free to make changes based on your requirements.
 <img width="1366" height="576" alt="login" src="https://github.com/user-attachments/assets/ce8ec19a-a50f-4d48-ad4c-85638c60d8c0" />
 
 
-
 ## How to Install and Run this project?
 
 ### Installation
 **1. Create a Folder where you want to save the project**
 
-**2. Create a Virtual Environment and Activate**
-
-Install Virtual Environment First
-```
-pip install virtualenv
-```
-
-Create Virtual Environment
-
-For Windows
-```
-python -m venv venv
-```
-For Mac
-```
-python3 -m venv venv
-```
-For Linux
-```
-virtualenv .
-```
-
-Activate Virtual Environment
-
-For Windows
-```
-source venv/scripts/activate
-```
-
-For Mac
-```
-source venv/bin/activate
-```
-
-For Linux
-```
-source bin/activate
-```
-
-**3. Clone this project**
+**2. Clone this project**
 ```
 git clone https://github.com/Kalharapasan/Group-07.git
 ```
-
-Then, Enter the project
+**03.Then, Enter the project**
 ```
 cd Group-07
 ```
-Cretae databases In you MySql Lacal Server 
-```DATABASES = {
+
+**04.Cretae databases In you MySql Lacal Server and chnge configeration on seting.py in application** 
+```
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'DATABASES_NAME',
@@ -102,18 +63,58 @@ Cretae databases In you MySql Lacal Server
         'HOST': 'HOST',
         'PORT': 'PORT',
     }
-}```
+} 
+```
+
+**5.Create a Virtual Environment and Activate**
+
+**I.Install Virtual Environment First**
+```
+pip install virtualenv
+```
+
+**II.Create Virtual Environment**
+
+For Windows 
+```
+--> python -m venv venv
+```
+For Mac
+```
+python3 -m venv venv
+```
+For Linux
+```
+--> virtualenv .
+```
+
+**III.Activate Virtual Environment**
+
+For Windows
+```
+--> venv/scripts/activate
+```
+
+For Mac
+```
+--> venv/bin/activate
+```
+
+For Linux
+```
+--> bin/activate
+```
 
 **4. Install Requirements from 'requirements.txt'**
-```python
-pip3 install -r requirements.txt
+```
+--> pip3 install -r requirements.txt
 ```
 
 **5. Add the hosts**
 
 - Got to settings.py file 
 - Then, On allowed hosts, Use **[]** as your host. 
-```python
+```
 ALLOWED_HOSTS = []
 ```
 *Do not use the fault allowed settings in this repo. It has security risk!*
@@ -122,24 +123,24 @@ ALLOWED_HOSTS = []
 **6. Now Run Server**
 
 Command for PC:
-```python
-python manage.py runserver
+```
+-->python manage.py runserver
 ```
 
 Command for Mac:
-```python
-python3 manage.py runserver
+```
+-->python3 manage.py runserver
 ```
 
 Command for Linux:
-```python
-python3 manage.py runserver
+```
+-->python3 manage.py runserver
 ```
 
 **7.Database Update**
 ```
-python manage.py makemigrations
-python manage.py migrate
+-->python manage.py makemigrations
+-->python manage.py migrate
 ```
 
 **8. Login Credentials**
@@ -147,22 +148,8 @@ python manage.py migrate
 Create Super User (HOD)
 Command for PC:
 ```
-python manage.py createsuperuser
+-->python manage.py createsuperuser
 ```
-
-Command for Mac:
-```
-python3 manage.py createsuperuser
-```
-
-Command for Linux:
-```
-python3 manage.py createsuperuser
-```
-
-
-
-
 Then Add Email and Password
 
 **or Use Default Credentials**
@@ -171,15 +158,29 @@ Then Add Email and Password
 Email: admin@admin.com
 Password: admin
 
-*For Staff*
-Email: staff@staff.com
-Password: sta@2002
+Command for Mac:
+```
+-->python3 manage.py createsuperuser
+```
+Then Add Email and Password
 
-*For Student*
-Email: student@st.com
-Password: stu@2001
+**or Use Default Credentials**
 
+*For HOD /SuperAdmin*
+Email: admin@admin.com
+Password: admin
 
+Command for Linux:
+```
+-->python3 manage.py createsuperuser
+```
+Then Add Email and Password
+
+**or Use Default Credentials**
+
+*For HOD /SuperAdmin*
+Email: admin@admin.com
+Password: admin
 
 
 ## Project's Journey
