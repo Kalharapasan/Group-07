@@ -31,9 +31,16 @@ Feel free to make changes based on your requirements.
 
 
 ## 📸 ScreenShots
-<img width="1366" height="622" alt="Capture1" src="https://github.com/user-attachments/assets/9a88ad8b-9d2b-4191-90c9-13475157d9d3" />
-<img width="1366" height="614" alt="studen" src="https://github.com/user-attachments/assets/cefa99ef-00bf-4ea9-9c40-4d8f854004d7" />
-<img width="1366" height="617" alt="Staff" src="https://github.com/user-attachments/assets/b3a64e41-2e7c-4e64-9aca-c8686fc72faa" />
+<table>
+    <tr>
+        <td><img width="1366" height="622" alt="Capture1" src="https://github.com/user-attachments/assets/9a88ad8b-9d2b-4191-90c9-13475157d9d3" /></td> 
+        <td><img width="1366" height="614" alt="studen" src="https://github.com/user-attachments/assets/cefa99ef-00bf-4ea9-9c40-4d8f854004d7" /></td> 
+        <td><img width="1366" height="617" alt="Staff" src="https://github.com/user-attachments/assets/b3a64e41-2e7c-4e64-9aca-c8686fc72faa" /></td> 
+    </tr>
+</tabble>
+
+
+
 
 
 
