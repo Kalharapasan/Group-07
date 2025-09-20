@@ -43,16 +43,22 @@ Feel free to make changes based on your requirements.
 ### Installation
 **1. Create a Folder where you want to save the project**
 
-**2. Clone this project**
+**02.Downloads and install python 3.10**
+
+**03.Install virtualenv In Python**
+```
+pip instll virtualenv
+```
+**04. Clone this project**
 ```
 git clone https://github.com/Kalharapasan/Group-07.git
 ```
-**03.Then, Enter the project**
+**05.Then, Enter the project**
 ```
 cd Group-07
 ```
 
-**04.Cretae databases In you MySql Lacal Server and chnge configeration on seting.py in application** 
+**06.Cretae databases In you MySql Lacal Server and chnge configeration on seting.py in application** 
 ```
 DATABASES = {
     'default': {
@@ -66,7 +72,7 @@ DATABASES = {
 } 
 ```
 
-**5.Create a Virtual Environment and Activate**
+**07.Create a Virtual Environment and Activate**
 
 **I.Install Virtual Environment First**
 ```
@@ -105,12 +111,12 @@ For Linux
 --> bin/activate
 ```
 
-**4. Install Requirements from 'requirements.txt'**
+**08. Install Requirements from 'requirements.txt'**
 ```
 --> pip3 install -r requirements.txt
 ```
 
-**5. Add the hosts**
+**09. Add the hosts**
 
 - Got to settings.py file 
 - Then, On allowed hosts, Use **[]** as your host. 
@@ -120,7 +126,7 @@ ALLOWED_HOSTS = []
 *Do not use the fault allowed settings in this repo. It has security risk!*
 
 
-**6. Now Run Server**
+**10. Now Run Server**
 
 Command for PC:
 ```
@@ -137,13 +143,13 @@ Command for Linux:
 -->python3 manage.py runserver
 ```
 
-**7.Database Update**
+**11.Database Update**
 ```
 -->python manage.py makemigrations
 -->python manage.py migrate
 ```
 
-**8. Login Credentials**
+**12. Login Credentials**
 
 Create Super User (HOD)
 Command for PC:
