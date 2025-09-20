@@ -70,7 +70,7 @@ DATABASES = {
 
 **I.Install Virtual Environment First**
 ```
-pip install virtualenv
+-->pip install virtualenv
 ```
 
 **II.Create Virtual Environment**
