@@ -39,9 +39,10 @@ Feel free to make changes based on your requirements.
         <th>Teacher Dashbord</th>
     </te>
     <tr>
-        <td><img width="400" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/9a88ad8b-9d2b-4191-90c9-13475157d9d3" /></td> 
-        <td><img width="400" alt="Student Dashboard" src="https://github.com/user-attachments/assets/cefa99ef-00bf-4ea9-9c40-4d8f854004d7" /><td> 
-        <td><img width="400" alt="Staff Dashboard" src="https://github.com/user-attachments/assets/b3a64e41-2e7c-4e64-9aca-c8686fc72faa" /></td> 
+        <td><img width="300" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/9a88ad8b-9d2b-4191-90c9-13475157d9d3" /></td> 
+        <td><img width="300" alt="Student Dashboard" src="https://github.com/user-attachments/assets/cefa99ef-00bf-4ea9-9c40-4d8f854004d7" /><td> 
+        <td><img width="300" alt="Staff Dashboard" src="https://github.com/user-attachments/assets/b3a64e41-2e7c-4e64-9aca-c8686fc72faa" /></td>
+        
     </tr>
 </table>
 
