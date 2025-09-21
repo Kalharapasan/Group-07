@@ -1,28 +1,90 @@
-<footer class="bg-dark text-white pt-4 pb-3">
-    <div class="container">
-        <div class="row align-items-center">
+<footer
+  class="footer-section text-light"
+  style="
+    background: linear-gradient(135deg, #0d1b2a, #1b263b, #0f3460);
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+    font-family: 'Poppins', sans-serif;
+  "
+>
+  <div class="container-fluid py-3">
+    <!-- reduced height -->
+    <div class="row gy-3 align-items-center">
+      <!-- University Info -->
+      <div class="col-md-6 text-center text-md-start">
+        <h5 class="fw-bold mb-2 text-warning" style="letter-spacing: 0.5px">
+          South Eastern University of Sri Lanka
+        </h5>
+        <p class="mb-1 small text-light opacity-75">
+          📍 University Park, Oluvil, #32360, Sri Lanka.
+        </p>
+        <p class="mb-1 small">
+          📞 <span class="text-info fw-semibold">+94 67 2255062 /63 /64</span>
+        </p>
+        <p class="mb-0 small">
+          📠 <span class="text-info fw-semibold">+94 67 2255217</span>
+        </p>
+      </div>
 
-            <!-- University Info -->
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                <h6 class="fw-bold mb-1">South Eastern University of Sri Lanka</h6>
-                <p class="mb-1 small">University Park, Oluvil, #32360, Sri Lanka.</p>
-                <p class="mb-1 small">📞 +94 67 2255062 /63 /64 | 📠 +94 67 2255217</p>
-            </div>
-
-            <!-- Social Links -->
-            <div class="col-md-6 text-center text-md-end">
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
-            </div>
+      <!-- Social Links -->
+      <div class="col-md-6 text-center text-md-end">
+        <h6 class="fw-bold mb-3 text-uppercase text-warning">Stay Connected</h6>
+        <div class="d-flex justify-content-center justify-content-md-end gap-3">
+          <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
         </div>
-
-        <hr class="border-secondary my-3">
-
-        <!-- Copyright -->
-        <div class="text-center small">
-            © {% now "Y" %} South Eastern University of Sri Lanka. All rights reserved.
-        </div>
+      </div>
     </div>
+
+    <hr class="border-light opacity-25 my-3" />
+    <!-- smaller gap -->
+
+    <!-- Copyright -->
+    <div class="text-center small text-light opacity-75">
+      © {% now "Y" %}
+      <span class="fw-bold text-warning"
+        >South Eastern University of Sri Lanka</span
+      >
+      | All Rights Reserved
+    </div>
+  </div>
 </footer>
+
+<!-- Custom CSS -->
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+  .social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px; /* smaller */
+    height: 38px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+    font-size: 16px; /* slightly smaller */
+    transition: all 0.3s ease-in-out;
+    margin: 0 6px; /* adds small space on left & right */
+  }
+
+  .social-btn:hover {
+    background: #ffc107;
+    color: #0d1b2a;
+    transform: scale(1.1);
+    box-shadow: 0 3px 12px rgba(255, 193, 7, 0.4);
+  }
+
+  @media (max-width: 768px) {
+    footer {
+      margin-left: 0 !important;
+      text-align: center;
+    }
+    .social-btn {
+      margin: 4px;
+    }
+  }
+</style>
