@@ -1,0 +1,110 @@
+/* ============================
+   Student Dashboard Custom Design
+   ============================ */
+
+body {
+  background: #f4f6f9 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --- Small Stat Boxes --- */
+.small-box {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Add gradient backgrounds */
+.bg-info {
+  background: linear-gradient(135deg, #00c6ff, #0072ff) !important;
+}
+.bg-success {
+  background: linear-gradient(135deg, #56ab2f, #a8e063) !important;
+}
+.bg-danger {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b) !important;
+}
+.bg-warning {
+  background: linear-gradient(135deg, #f7971e, #ffd200) !important;
+}
+
+/* Inner text styling */
+.small-box .inner h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.small-box .inner p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Icons in boxes */
+.small-box .icon {
+  color: rgba(255, 255, 255, 0.3);
+  right: 20px;
+  top: 10px;
+}
+
+/* --- Cards (charts) --- */
+.card {
+  border-radius: 15px !important;
+  border: none !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Card headers */
+.card-header {
+  background: #2e86de !important;
+  color: #fff !important;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* Chart canvas responsive improvements */
+canvas {
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+}
+
+/* --- Sidebar improvements (optional) --- */
+.main-sidebar {
+  background: linear-gradient(180deg, #1e272e, #2f3640);
+}
+
+.main-sidebar .nav-link.active {
+  background-color: #0abde3 !important;
+  border-radius: 10px;
+}
+
+.main-sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  background: transparent !important;
+  font-weight: 500;
+}
+.breadcrumb-item a {
+  color: #007bff !important;
+}
